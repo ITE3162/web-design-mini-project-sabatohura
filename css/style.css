@@ -1,5 +1,36 @@
 
+/*=====================================================================
+
+@Default Styles
+
+Table of Content:
+01/ Variables
+02/ predefin
+03/ header
+04/ button
+05/ banner
+06/ breadcrumb
+07/ about
+08/ team
+09/ project  
+11/ team 
+12/ blog 
+13/ video  
+14/ features  
+15/ career  
+16/ contact 
+17/ footer
+
+=====================================================================*/
+/*----------------------------------------------------*/
+/*font Variables*/
+/*Color Variables*/
+/*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+
+
 .list {
   list-style: none;
   margin: 0px;
@@ -2609,6 +2640,10 @@ h6 {
       }
       
 
+/* End Welcome Area css
+============================================================================================ */
+/* My Tabs Area css
+============================================================================================ */
 .mytabs_area {
   
    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(69,86,102,1) 0%, rgba(34,34,34,1) 90% );
@@ -2637,7 +2672,8 @@ h6 {
 
 
       .tabs_inner .nav.nav-tabs li a.active {
- 
+        /* background: #fff;
+        color: #222222;  */
         background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
         background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
         background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
@@ -2697,6 +2733,10 @@ h6 {
       color: rgba(255, 255, 255, 0.75);
       margin-bottom: 0px; }
 
+/* End My Tabs Area css
+============================================================================================ */
+/* Feature Area css
+============================================================================================ */
 
   .feature_area.feature_tow {
     background: #fff; }
@@ -2732,7 +2772,14 @@ h6 {
   margin-bottom: 30px;
   box-shadow: 3px 5px 8px 3px ;
 }
- 
+  /* .feature_item i {
+    margin-bottom: 35px;
+    display: block; }
+    .feature_item i:before {
+      margin-left: 0px;
+      font-size: 60px;
+      color: #e1e1e1;
+      line-height: 60px; } */
 
 
   .feature_item h4 {
@@ -2767,7 +2814,10 @@ h6 {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
 
-
+/* End Feature Area css
+============================================================================================ */
+/* Personal Profile Area css
+============================================================================================ */
 .profile_area .col-lg-7 {
   vertical-align: middle;
   align-self: center; }
@@ -2846,16 +2896,33 @@ h6 {
        width: 53px;
        display: inline-block;
        border-radius: 8px;
+        /* padding-left:30%; */
         font-size: 45px;
         background: linear-gradient(to right, #766dff 0%, #86e7ff 70%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; }
-
+      /* line-height: 53px;
+      width: 53px;
+      background-image: -moz-linear-gradient(0deg, #766dff 0%, #77da26 100%);
+      background-image: -webkit-linear-gradient(0deg, #3d34c2 0%, #171d0d 100%);
+      background-image: -ms-linear-gradient(0deg, #766dff 0%, #c3c11b 100%);
+      /* background: #e8e8e8; */
+      /* border-radius: 8px;
+      display: inline-block;
+      text-align: center;
+      color: #fff;
+      font-size: 25px; } */ 
     .personal_text .personal_social li:hover a {
       background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
       background-image: -webkit-linear-gradient(0deg, #c7d3c5 0%, #4b595a 100%);
       background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
 
+/* End Personal Profile Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Gallery Area css
+============================================================================================ */
 .isotope_fillter {
   margin-bottom: 50px; }
   .isotope_fillter .gallery_filter {
@@ -2925,6 +2992,13 @@ h6 {
 .more_btn {
   text-align: center;
   margin-top: 80px; }
+
+/* End Gallery Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Testimonials Area css
+============================================================================================ */
 
 
 
@@ -3030,6 +3104,16 @@ border-radius: 5px;
     text-transform: uppercase; }
   .testi_item a {
     color: #ffbf00; }
+
+/* End Testimonials Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Footer Area css
+============================================================================================ */
+
+
+
 
 
 .footer_area {
@@ -3143,10 +3227,20 @@ border-radius: 5px;
   .copy_right_text p a {
     color: #766dff; }
 
+/* End Footer Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+
+/*# sourceMappingURL=style.css.map */
+
+
+
+
 
 .bmc-button img{
   width: 33px !important;
-   margin-bottom: 1px !important;
+  /* margin-top: 12px !important; */
+  margin-bottom: 1px !important;
   box-shadow: none !important;
   border: none !important;vertical-align: middle !important;
 }
